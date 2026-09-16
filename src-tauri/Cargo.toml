@@ -1,0 +1,26 @@
+[package]
+name = "workrate"
+version = "0.1.0"
+description = "A lightweight timer and earnings tracker for hourly work"
+authors = ["kumamotoshuto"]
+license = "MIT"
+repository = "https://github.com/shute2004/workrate"
+edition = "2021"
+rust-version = "1.77.2"
+
+[lib]
+name = "workrate_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6.3", features = [] }
+
+[dependencies]
+log = "0.4"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tauri = { version = "2.11.3", features = ["tray-icon"] }
+tauri-plugin-log = "2"
+tokio = { version = "1", features = ["time"] }
+uuid = { version = "1", features = ["v4"] }
