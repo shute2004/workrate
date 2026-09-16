@@ -6,6 +6,10 @@ Workrate is a lightweight macOS timer for hourly work. It keeps multiple timers 
 
 The app is intentionally small: no accounts, cloud sync, project management, screenshots, productivity scoring, or activity monitoring.
 
+## Screenshot
+
+![Workrate timer interface](docs/assets/workrate-ui.png)
+
 ## Features
 
 - Multiple independent timers can run at the same time
