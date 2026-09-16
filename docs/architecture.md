@@ -1,5 +1,7 @@
 # Architecture
 
+**English** | [日本語](architecture.ja.md)
+
 Workrate is a macOS-first Tauri 2 application with a React/TypeScript frontend and a Rust backend.
 
 ## Design goals

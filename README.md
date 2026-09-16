@@ -1,5 +1,7 @@
 # Workrate
 
+**English** | [日本語](README.ja.md)
+
 Workrate is a lightweight macOS timer for hourly work. It keeps multiple timers independent, calculates earnings in real time, and converts USD earnings to JPY using the current exchange rate.
 
 The app is intentionally small: no accounts, cloud sync, project management, screenshots, productivity scoring, or activity monitoring.
@@ -89,7 +91,11 @@ src-tauri/src/
   lib.rs           application wiring
 ```
 
-More implementation notes are in [`docs/architecture.md`](docs/architecture.md).
+More implementation notes are in [`docs/architecture.md`](docs/architecture.md). A Japanese version is available at [`docs/architecture.ja.md`](docs/architecture.ja.md).
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). A Japanese version is available at [`CONTRIBUTING.ja.md`](CONTRIBUTING.ja.md).
 
 ## Privacy
 

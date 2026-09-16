@@ -1,5 +1,7 @@
 # Contributing
 
+**English** | [日本語](CONTRIBUTING.ja.md)
+
 Contributions are welcome.
 
 ## Local development
